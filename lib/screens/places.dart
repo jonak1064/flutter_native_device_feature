@@ -12,7 +12,7 @@ class PlacesScreen extends ConsumerWidget {
     final userPlaces = ref.watch(UserPlaceProvider);
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Ypur Places'),
+        title: const Text('Your Places'),
         actions: [
           IconButton(
             icon: const Icon(Icons.add),
