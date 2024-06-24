@@ -3,6 +3,7 @@ import 'dart:io';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:using_of_native_device_feature/providers/user_places.dart';
 import 'package:using_of_native_device_feature/widgets/image_input.dart';
+import 'package:using_of_native_device_feature/widgets/location_input.dart';
 
 class AddPlaceScreen extends ConsumerStatefulWidget {
   const AddPlaceScreen({super.key});
@@ -59,6 +60,10 @@ class _AddPlaceScreenState extends ConsumerState<AddPlaceScreen> {
                 _selectedImage = image;
               },
             ),
+            const SizedBox(
+              height: 10,
+            ),
+            LocationInput(),
             const SizedBox(
               height: 16,
             ),

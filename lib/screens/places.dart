@@ -23,7 +23,7 @@ class PlacesScreen extends ConsumerWidget {
                 ),
               );
             },
-          )
+          ),
         ],
       ),
       body: Padding(
